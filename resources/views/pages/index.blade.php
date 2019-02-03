@@ -6,82 +6,57 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="{{ asset ('favicon.ico') }}" />
-
 	<title>3DFS Software-Defined Electricity</title>
-
     <!-- Bootstrap core CSS -->
 	<link href="{{ asset ('css/app.css') }}" rel="stylesheet" type="text/css"/>
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="{{ asset ('css/styles.css') }}" rel="stylesheet">
-  </head>
+  </head>  
+  <body>   
+	<nav class="navbar bg-dark navbar-dark sticky-top">
+	  <a class="navbar-brand ml-2" href="#" id="navlogo"><p class="text-white display-4 font-3dfs"><span class="red-3dfs bg-dark">3</span><span class="white-3dfs">DFS</span><span class="dark-3dfs">&nbsp;</span></p></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toptop">
+		<span class="navbar-toggler-icon"></span>
+	  </button> 
   
-  <body>
-
-    <header>
-      <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-2">
-
-              <p class="text-white display-4 font-3dfs"><span class="red-3dfs bg-dark">3</span><span class="white-3dfs">DFS</span><span class="dark-3dfs">&nbsp;</span></p>
-
-              <p class="text-white">3DFS designs and manufactures the most efficient way to deliver electricity. Embedding Real-Time computing into power networks for protection stability and security.</p>
-            </div>
-            <div class="col-sm-4 offset-md-1 py-4">
-              <p class="text-white size-20">Contact</p>
-              <ul class="list-unstyled">
-                <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                <li><a href="#" class="text-white">Like on Facebook</a></li>
-                <li><a href="#" class="text-white">Email us</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">About</h4>
-              <p class="text-muted">3DFS designs and manufactures the most efficient way to deliver electricity. Embedding Real-Time computing into power networks for protection stability and security.</p>
-            </div>
-            <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">Contact</h4>
-              <ul class="list-unstyled">
-                <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                <li><a href="#" class="text-white">Like on Facebook</a></li>
-                <li><a href="#" class="text-white">Email us</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="navbar navbar-dark bg-dark box-shadow">
-        <div class="container d-flex justify-content-between">
-         <!-- <a href="{{ route('home') }}" class="navbar-brand d-flex align-items-center">
-          	<img src="{{ asset ('png/3dfs-white-logo.png') }}" height="50">
-          </a> -->
-        <ul class="ml-auto list-inline mt-3">
-          <li class="nav-item active list-inline-item">
-            <a class="nav-link text-success" href="#">Innovation <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item list-inline-item">
-            <a class="nav-link text-success" href="#">Products</a>
-          </li>
-        </ul>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
-    </header>
-
-    <main role="main">
-
-      <section class="jumbotron jumbofade rounded-0 pt-2">
-        <div class="container">
+  	 
+  	 <div class="bg-dark collapse navbar-collapse" id="toptop">
+	  <div class="row">
+		<div class="col-md-6 pl-3">
+		  <p class="text-white">3DFS designs and manufactures the most efficient way to deliver electricity. Embedding Real-Time computing into power networks for protection stability and security.</p>
+		</div>
+		<div class="col-md-6 pl-3">
+	
+		  <div class="row">
+		   <div class="col-6 pl-3">
+	
+		  <p class="text-white size-20">Contact</p>
+		  <ul class="list-unstyled">
+			<li><a href="#" class="text-white">Follow on Twitter</a></li>
+			<li><a href="#" class="text-white">Like on Facebook</a></li>
+			<li><a href="#" class="text-white">Email us</a></li>
+		  </ul>	
+		  </div>
+		  
+		    <div class="col-6 pl-3">		
+		  <p class="text-white size-20">Contact</p>
+		  <ul class="list-unstyled">
+			<li><a href="#" class="text-white">Follow on Twitter</a></li>
+			<li><a href="#" class="text-white">Like on Facebook</a></li>
+			<li><a href="#" class="text-white">Email us</a></li>
+		  </ul>	
+		    </div>
+		    </div>
+		    
+		    
+		</div>
+	  </div>      
+    </nav>
   
+  <section class="jumbotron jumbofade rounded-0 pt-2">
+     
+  <div class="container">
 			<div class="col-md-12 d-flex flex-wrap">
 			<div class="col-md-6 d-flex flex-wrap">
 			 <div class="col-12"> 
@@ -129,10 +104,7 @@
 				<img class="img-fluid" src="{{ asset ('jpg/vector-Q2.jpg') }}"/>
 		     </div> 
 		   </div> 
-
-		   
-       
-        </div>
+	</div> 
       </section>
       <div class="album py-5 bg-light">
         <div class="container">
@@ -279,7 +251,7 @@
         </div>
       </div>
 
-    </main>
+    </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
