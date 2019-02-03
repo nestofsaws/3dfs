@@ -101,8 +101,11 @@
 			  <div class="card bg-light mt-4">
 			  <div class="card-body">
 			  <h4>Instantly Clean Electricity. Secure Power Network</h4>
-			  <p>The VectorQ Series synchronizes the electricity for all of the loads in the panel for maximum energy efficiency, asset performance and protection. It also establishes a secure, autonomous power network and provides data and analytics on every load.</p>
+			  <p>The <a href="#" class="text-success"><strong>VectorQ Series</strong></a> synchronizes the electricity for all of the loads in the panel for maximum energy efficiency, asset performance and protection. It also establishes a secure, autonomous power network and provides data and analytics on every load.</p>
 			 </div>	
+			 </div>	
+			 <div class="d-flex justify-content-center">
+			 	<a href="#" class="btn red-3dfs-button mr-3 mt-4"><strong>More Applications</strong></a>
 			 </div>	
 			 </div>	
 			 
@@ -116,10 +119,12 @@
       <div class="py-5 bg-light">
         <div class="container">
         
-<div class="px-3 py-3 pb-md-4 mx-auto text-center">
-  <h3 class="display-4">What Are The Benefits Of Clean Electricity?</h3>
-  <p class="lead">With a VectorQ Series power controller installed, every load in that panel will:</p>
-</div>
+			<div class="px-3 py-3 pb-md-4 mx-auto text-center">
+			  <h3 class="display-4">What Are The Benefits Of Clean Electricity?</h3>
+			  <p class="lead">With a <a href="#" class="text-success"><strong>VectorQ Series Power Controller</strong></a> installed, every load in that panel will:</p>
+			</div>
+		</div>
+
           <div class="card-deck">
               <div class="card mb-4 box-shadow">
 				<i class='fas fa-leaf text-success text-center mt-2' style='font-size:48px;'></i>				
@@ -150,16 +155,60 @@
                 	<i class='fas fa-sync text-success text-center mt-2' style='font-size:48px;'></i>				
 				<h4 class="text-center mt-2">Function Consistently</h4>
                 <div class="card-body">
-					<p>Motors operate at tag values with optimum efficiency.</p>
-					<p>Data transfer with minimal errors or re-transmission.</p>
-					<p>In series generators interoperate seamlessly.</p>    
+					<p>-Motors operate at tag values with optimum efficiency.</p>
+					<p>-Data transfer with minimal errors or re-transmission.</p>
+					<p>-In series generators interoperate seamlessly.</p>    
                 </div> 
               </div>
         
             
-            
-
     </div>
+    </div>
+    
+        <footer class="pt-4 my-md-5 pt-md-5 border-top bg-dark">
+        <div class"container">
+        <div class="row">
+          <div class="col-12 col-md">
+	  		<a class="navbar-brand ml-4" href="#" id="navlogo"><p class="text-white display-4 font-3dfs"><span class="red-3dfs bg-dark">3</span><span class="white-3dfs">DFS</span><span class="dark-3dfs">&nbsp;</span></p></a>
+            <ul class="list-unstyled text-small">
+            <li>1911 NC Hwy 902 West</li>
+            <li>Pittsboro, NC 27312</li>
+            </ul>
+            <small class="d-block mb-3 text-muted">&copy; 2019</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Cool stuff</a></li>
+              <li><a class="text-muted" href="#">Random feature</a></li>
+              <li><a class="text-muted" href="#">Team feature</a></li>
+              <li><a class="text-muted" href="#">Stuff for developers</a></li>
+              <li><a class="text-muted" href="#">Another one</a></li>
+              <li><a class="text-muted" href="#">Last time</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Resource</a></li>
+              <li><a class="text-muted" href="#">Resource name</a></li>
+              <li><a class="text-muted" href="#">Another resource</a></li>
+              <li><a class="text-muted" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="#">Locations</a></li>
+              <li><a class="text-muted" href="#">Privacy</a></li>
+              <li><a class="text-muted" href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </footer>
+    </div>  
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
