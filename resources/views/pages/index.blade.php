@@ -114,7 +114,8 @@
 		</div>
 	</div>
 	<div class="container">
-		<div class="card-deck">
+		<div class="row">
+		  <div class="col-md-3">
 			<div class="card mb-4 box-shadow">
 				<i class='fas fa-leaf text-success text-center mt-2' style='font-size:48px;'></i>				
 				<h4 class="text-center mt-2">Save Energy</h4>
@@ -123,6 +124,8 @@
 					<p>20-25% kWh reduction for compressors, pumps, and other similar induction motor based loads</p>    
 				</div>
 			</div>
+			</div>
+			<div class="col-md-3">
 			<div class="card mb-4 box-shadow">
 				<i class='fas fa-thermometer-quarter text-success text-center mt-2' style='font-size:48px;'></i>				
 				<h4 class="text-center mt-2">Operate at Cooler Temperatures</h4>
@@ -130,6 +133,8 @@
 					<p>Power supplies, wires, motors, pumps, etc. will experience a ~20 degree temperature drop as a result of preventing energy waste.</p>    
 				</div>
 			</div>
+			</div>
+			<div class="col-md-3">
 			<div class="card mb-4 box-shadow">
 				<i class='fas fa-charging-station text-success text-center mt-2' style='font-size:48px;'></i>				
 				<h4 class="text-center mt-2">Fail Less Frequently</h4>
@@ -137,6 +142,8 @@
 					<p>Loads operate stress free and never experience the power fluctuations and surges that exist in uncontrolled power networks.</p>    
 				</div>
 			</div>
+			</div>
+			<div class="col-md-3">
 			<div class="card mb-4 box-shadow">
 				<i class='fas fa-sync text-success text-center mt-2' style='font-size:48px;'></i>				
 				<h4 class="text-center mt-2">Function Consistently</h4>
@@ -145,6 +152,7 @@
 					<p>-Data transfer with minimal errors or re-transmission.</p>
 					<p>-In series generators interoperate seamlessly.</p>    
 				</div> 
+			</div>
 			</div>
 		</div>
 	</div>
