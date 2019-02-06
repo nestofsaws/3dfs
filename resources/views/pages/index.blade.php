@@ -79,7 +79,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 d-block d-md-none">
-					<img class="img-fluid" src="{{ asset ('jpg/vector-Q2.jpg') }}"/>
+				<img class="img-fluid" src="{{ asset ('png/q2.png') }}"/>
 				</div> 
 				<div class="col-12">
 					<h3 class="text-center mt-4"><strong>Fast, Easy Installation: Done.</strong></h3>
@@ -101,7 +101,7 @@
 				</div>	
 			</div>		 
 			<div class="col-md-6 d-none d-md-block">
-				<img class="img-fluid" src="{{ asset ('jpg/vector-Q2.jpg') }}"/>
+				<img class="img-fluid" src="{{ asset ('png/q2.png') }}"/>
 			</div> 
 		</div> 
 	</section>
