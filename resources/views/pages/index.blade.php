@@ -10,7 +10,7 @@
     <!-- Bootstrap core CSS -->
 	<link href="{{ asset ('css/app.css') }}" rel="stylesheet" type="text/css"/>
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="{{ asset ('css/styles.css') }}" rel="stylesheet">
   </head>  
@@ -49,6 +49,7 @@
 		</div>      
 	</nav>
 	<section class="jumbotron jumbofade rounded-0 pt-2">
+	<div class="container">
 		<div class="col-md-12 d-flex flex-wrap">
 			<div class="col-md-6 d-flex flex-wrap">
 				<div class="col-12"> 
@@ -104,6 +105,7 @@
 				<img class="img-fluid" src="{{ asset ('png/q2.png') }}"/>
 			</div> 
 		</div> 
+		</div> 
 	</section>
 	
 	<div class="py-5 bg-light">
@@ -111,66 +113,105 @@
 			<div class="px-3 py-3 pb-md-4 mx-auto text-center">
 				<h3 class="display-4">What Are The Benefits Of Clean Electricity?</h3>
 				<p class="lead">With a <a href="#" class="text-success"><strong>VectorQ Series Power Controller</strong></a> installed, every load in that panel will:</p>
-		</div>
-	</div>
+		    </div>
+	    </div>
+		
+		
 	<div class="container">
 		<div class="row">
-		  <div class="col-md-3">
-			<div class="card mb-4 box-shadow">
-				<i class='fas fa-leaf text-success text-center mt-2' style='font-size:48px;'></i>				
-				<h4 class="text-center mt-2">Save Energy</h4>
-				<div class="card-body">
-					<p>10-15% kWh reduction for fans, electronics, lighting loads, power supplies, etc.</p>    
-					<p>20-25% kWh reduction for compressors, pumps, and other similar induction motor based loads</p>    
+			<div class="col-md-3 d-flex align-items-stretch my-2">
+				<div class="card">
+					<div class="card-block text-center">
+						<i class="fas fa-leaf text-success mt-2" style="font-size:48px;"></i>
+						<h4 class="card-title text-center mt-2">Save Energy</h4>
+						<div class="card-body">
+							<p>10-15% kWh reduction for fans, electronics, lighting loads, power supplies, etc.	20-25% kWh reduction for compressors, pumps, and other similar induction motor based loads</p>    
+						</div>
+
+					</div>
+				</div>
+			</div>       
+			<div class="col-md-3 d-flex align-items-stretch my-2">
+				<div class="card">
+					<div class="card-block text-center">
+						<i class="fas fa-thermometer-quarter text-success mt-2" style="font-size:48px;"></i>
+						<h4 class="card-title text-center mt-2">Cooler Temperatures</h4>
+						<div class="card-body">
+							<p>Power supplies, wires, motors, pumps, etc. will experience a ~20 degree temperature drop as a result of preventing energy waste</p> 
+						</div>
+					</div>
+				</div>
+			</div>       
+			<div class="col-md-3 d-flex align-items-stretch my-2">
+				<div class="card">
+					<div class="card-block text-center">
+						<i class="fas fa-charging-station text-success mt-2" style="font-size:48px;"></i>
+						<h4 class="card-title text-center mt-2">Fail Less Frequently</h4>
+						<div class="card-body">
+							<p>Loads operate stress free and never experience the power fluctuations and surges that exist in uncontrolled power networks.</p>    
+						</div>
+					</div>
+				</div>
+			</div>        
+			<div class="col-md-3 d-flex align-items-stretch my-2">
+				<div class="card">
+					<div class="card-block text-center">
+						<i class="fas fa-sync text-success mt-2" style="font-size:48px;"></i>
+						<h4 class="card-title text-center mt-2">Function Consistently</h4>
+						<div class="card-body d-flex flex-grow-1">
+							<p>-Motors operate at tag values with optimum efficiency. -Data transfer with minimal errors or re-transmission. -In series generators interoperate seamlessly.</p>     
+						</div>
+
+					</div>
 				</div>
 			</div>
-			</div>
-			<div class="col-md-3">
-			<div class="card mb-4 box-shadow">
-				<i class='fas fa-thermometer-quarter text-success text-center mt-2' style='font-size:48px;'></i>				
-				<h4 class="text-center mt-2">Operate at Cooler Temperatures</h4>
-				<div class="card-body">
-					<p>Power supplies, wires, motors, pumps, etc. will experience a ~20 degree temperature drop as a result of preventing energy waste.</p>    
+	  </div>
+  </div>
+<div class="container">
+			<div class="row mt-4">
+			  <div class="col-xs-12 d-flex align-items-stretch mx-auto">
+				<div class="card mb-4 box-shadow">
+					<span class="d-flex align-items-stretch mx-auto"><nobr><i class="fas fa-dollar-sign text-success text-center mt-2" style="font-size:48px;"></i>&nbsp;				
+					<i class="fas fa-pound-sign text-success text-center mt-2" style="font-size:48px;"></i>&nbsp;				
+					<i class="fas fa-euro-sign text-success text-center mt-2" style="font-size:48px;"></i>&nbsp;				
+					<i class="fas fa-yen-sign text-success text-center mt-2" style="font-size:48px;"></i></nobr></span>			
+					<h3 class="text-center mt-2">Financial Benefits</h3>
+					<div class="card-body text-center">
+						<p>Learn the Financial Benefits Of Protecting Power Networks With Software-Defined Electricity</p>    
+						<p><a href="#" class="btn btn-success mr-3 mt-4"><strong>Download Whitepaper</strong></a></p>
+					</div>
 				</div>
-			</div>
-			</div>
-			<div class="col-md-3">
-			<div class="card mb-4 box-shadow">
-				<i class='fas fa-charging-station text-success text-center mt-2' style='font-size:48px;'></i>				
-				<h4 class="text-center mt-2">Fail Less Frequently</h4>
-				<div class="card-body">
-					<p>Loads operate stress free and never experience the power fluctuations and surges that exist in uncontrolled power networks.</p>    
-				</div>
-			</div>
-			</div>
-			<div class="col-md-3">
-			<div class="card mb-4 box-shadow">
-				<i class='fas fa-sync text-success text-center mt-2' style='font-size:48px;'></i>				
-				<h4 class="text-center mt-2">Function Consistently</h4>
-				<div class="card-body">
-					<p>-Motors operate at tag values with optimum efficiency.</p>
-					<p>-Data transfer with minimal errors or re-transmission.</p>
-					<p>-In series generators interoperate seamlessly.</p>    
-				</div> 
-			</div>
-			</div>
-		</div>
+			  </div>
+			 </div> 
+	</div>
 	</div>
     
-  <!--  
-        <footer class="pt-4 my-md-5 pt-md-5 border-top bg-dark">
-        <div class"container">
-        <div class="row">
-          <div class="col-12 col-md">
-	  		<a class="navbar-brand ml-4" href="#" id="navlogo"><p class="text-white display-4 font-3dfs"><span class="red-3dfs bg-dark">3</span><span class="white-3dfs">DFS</span><span class="dark-3dfs">&nbsp;</span></p></a>
+        <footer class="pt-4 bg-dark">
+                 
+        <div class="container">
+
+			<div class="row">
+			  <div class="col-md-3">
+
+				<a><p class="text-white display-4 font-3dfs"><span class="red-3dfs bg-dark">3</span><span class="white-3dfs">DFS</span><span class="dark-3dfs">&nbsp;</span></p></a>
+				<ul class="list-unstyled text-small text-white">
+				<li>1911 NC Hwy 902 West</li>
+				<li>Pittsboro, NC 27312</li>
+				</ul>
+				<small class="d-block mb-3 text-muted">&copy; 2019</small>
+			
+			  </div>
+		  <div class="col-md-3">
+            <h5 class="text-white">About</h5>
             <ul class="list-unstyled text-small">
-            <li>1911 NC Hwy 902 West</li>
-            <li>Pittsboro, NC 27312</li>
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="#">Locations</a></li>
+              <li><a class="text-muted" href="#">Privacy</a></li>
+              <li><a class="text-muted" href="#">Terms</a></li>
             </ul>
-            <small class="d-block mb-3 text-muted">&copy; 2019</small>
           </div>
-          <div class="col-6 col-md">
-            <h5>Features</h5>
+          <div class="col-md-3">
+            <h5 class="text-white">Features</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="#">Cool stuff</a></li>
               <li><a class="text-muted" href="#">Random feature</a></li>
@@ -180,8 +221,8 @@
               <li><a class="text-muted" href="#">Last time</a></li>
             </ul>
           </div>
-          <div class="col-6 col-md">
-            <h5>Resources</h5>
+          <div class="col-md-3">
+            <h5 class="text-white">Resources</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="#">Resource</a></li>
               <li><a class="text-muted" href="#">Resource name</a></li>
@@ -189,19 +230,9 @@
               <li><a class="text-muted" href="#">Final resource</a></li>
             </ul>
           </div>
-          <div class="col-6 col-md">
-            <h5>About</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Team</a></li>
-              <li><a class="text-muted" href="#">Locations</a></li>
-              <li><a class="text-muted" href="#">Privacy</a></li>
-              <li><a class="text-muted" href="#">Terms</a></li>
-            </ul>
-          </div>
         </div>
-        </div>
+        </div>  
         </footer>
--->
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
