@@ -22,27 +22,36 @@
 		</button>   	 
 		<div class="bg-dark collapse navbar-collapse" id="toptop">
 			<div class="row">
-				<div class="col-md-6 pl-3">
-					<p class="text-white">3DFS designs and manufactures the most efficient way to deliver electricity. Embedding Real-Time computing into power networks for protection stability and security.</p>
+				<div class="col-md-5 pl-3">
+					<p class="text-white mt-3">3DFS designs and manufactures the most efficient way to deliver electricity. Embedding Real-Time computing into power networks for protection stability and security.</p>
 				</div>
-				<div class="col-md-6 pl-3">	
+				<div class="col-md-7 pl-3">	
 					<div class="row">
-						<div class="col-6 pl-3">	
-							<p class="text-white size-20">Contact</p>
-							<ul class="list-unstyled">
-								<li><a href="#" class="text-white">Follow on Twitter</a></li>
-								<li><a href="#" class="text-white">Like on Facebook</a></li>
-								<li><a href="#" class="text-white">Email us</a></li>
+						<div class="col-4 pl-3">	
+							<p class="text-white size-20 border-bottom">Products</p>
+							<ul class="list-unstyled d-none d-md-block">
+								<li><a href="#" class="text-white pl-1">Data Acquisition & Analysis</a></li>
+								<li><a href="#" class="text-white pl-1">Electrical Network Correction</a></li>
+								<li><a href="#" class="text-white pl-1">Energy Storage</a></li>
 							</ul>	
 						</div>
-						<div class="col-6 pl-3">		
-							<p class="text-white size-20">Contact</p>
-							<ul class="list-unstyled">
-								<li><a href="#" class="text-white">Follow on Twitter</a></li>
-								<li><a href="#" class="text-white">Like on Facebook</a></li>
-								<li><a href="#" class="text-white">Email us</a></li>
+						<div class="col-4 pl-3">		
+							<p class="text-white size-20 border-bottom">About</p>
+							<ul class="list-unstyled d-none d-md-block">
+								<li><a href="#" class="text-white pl-1">About Us</a></li>
+								<li><a href="#" class="text-white pl-1">Collaboration</a></li>
+								<li><a href="#" class="text-white pl-1">Careers</a></li>
+								<li><a href="#" class="text-white pl-1">Tech Talk</a></li>
 							</ul>	
 						</div>
+						<div class="col-4 pl-3">		
+							<p class="text-white size-20 border-bottom">Contact</p>
+							<ul class="list-unstyled d-none d-md-block">
+								<li><a href="#" class="text-white pl-1">Follow on Twitter</a></li>
+								<li><a href="#" class="text-white pl-1">Like on Facebook</a></li>
+								<li><a href="#" class="text-white pl-1">Email us</a></li>
+							</ul>	
+						</div>						
 					</div>
 				</div>
 			</div>      
@@ -87,25 +96,36 @@
 					<div class="card bg-light">
 						<div class="card-body">
 							<h4>Non-Invasive, Maintenance Free Operation</h4>
-							<p>The <a href="#" class="text-success"><strong>VectorQ Series power controller</strong></a> is quickly and non-invasively installed into power networks. It can be done in <strong>20 minutes</strong> without disrupting power and does not require any maintenance.</p>
+							<p>The <a href="#" class="text-success"><strong>VectorQ Series power controller</strong></a> is quickly and non-invasively installed into power networks. It can be done in <nobr><strong>20 minutes</strong></nobr> without disrupting power and does not require any maintenance.</p>
 						</div>
 					</div>
-					<div class="card bg-light mt-4">
+					<!-- <div class="card bg-light mt-4">
 						<div class="card-body">
-							<h4>Instantly Clean Electricity. Secure Power Network</h4>
+							<h4>Instantly Clean Electricity. Secure Power Networks</h4>
 							<p>The <a href="#" class="text-success"><strong>VectorQ Series</strong></a> synchronizes the electricity for all of the loads in the panel for maximum energy efficiency, asset performance and protection. It also establishes a secure, autonomous power network and provides data and analytics on every load.</p>
 						</div>	
 					</div>	
 					<div class="d-flex justify-content-center">
 						<a href="#" class="btn red-3dfs-button mr-3 mt-4"><strong>More Applications</strong></a>
-					</div>	
+					</div>	 -->
 				</div>	
 			</div>		 
 			<div class="col-md-6 d-none d-md-block">
 				<img class="img-fluid" src="{{ asset ('png/q2.png') }}"/>
 			</div> 
+			<div class="col-12 ml-3 pr-5">			
+				<div class="card bg-light mt-4">
+					<div class="card-body">
+						<h4>Instantly Clean Electricity. Secure Power Networks</h4>
+						<p>The <a href="#" class="text-success"><strong>VectorQ Series</strong></a> synchronizes the electricity for all of the loads in the panel for maximum energy efficiency, asset performance and protection. It also establishes a secure, autonomous power network and provides data and analytics on every load.</p>
+					</div>	
+				</div>	
+				<div class="d-flex justify-content-center">
+					<a href="#" class="btn red-3dfs-button mr-3 mt-4"><strong>More Applications</strong></a>
+				</div>
+			</div>
 		</div> 
-		</div> 
+	</div> 
 	</section>
 	
 	<div class="py-5 bg-light">
