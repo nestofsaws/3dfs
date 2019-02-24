@@ -99,15 +99,6 @@
 							<p>The <a href="#" class="text-success"><strong>VectorQ Series power controller</strong></a> is quickly and non-invasively installed into power networks. It can be done in <nobr><strong>20 minutes</strong></nobr> without disrupting power and does not require any maintenance.</p>
 						</div>
 					</div>
-					<!-- <div class="card bg-light mt-4">
-						<div class="card-body">
-							<h4>Instantly Clean Electricity. Secure Power Networks</h4>
-							<p>The <a href="#" class="text-success"><strong>VectorQ Series</strong></a> synchronizes the electricity for all of the loads in the panel for maximum energy efficiency, asset performance and protection. It also establishes a secure, autonomous power network and provides data and analytics on every load.</p>
-						</div>	
-					</div>	
-					<div class="d-flex justify-content-center">
-						<a href="#" class="btn red-3dfs-button mr-3 mt-4"><strong>More Applications</strong></a>
-					</div>	 -->
 				</div>	
 			</div>		 
 			<div class="col-md-6 d-none d-md-block">
@@ -205,6 +196,41 @@
 			 </div> 
 	</div>
 	</div>
+
+<div class="container-fluid bg-white pb-4">
+	<div class="px-3 py-4 pb-md-4 mx-auto text-center">
+		<h3>Latest From our Blog, News and Reports</h3>
+	</div>
+<div class="card-columns">
+  <div class="card bg-light">
+    <div class="card-body text-center">
+    	<img src="https://3dfs.com/wp-content/uploads/2019/02/elecrta2-800x447.jpg" class="img-fluid" stlye="max-width:300px;"/>
+      <h4 class="card-title">Real-Time Control of Electricity as it Flows Prevents Electrical Fire Conditions</h4>
+      <i class='far fa-user text-success'></i> by <a href="#" class="card-link text-success"><strong>Chris</strong></a> | <i class='fas fa-tag text-success'></i> in <a href="#" class="card-link text-success"><strong>Articles</strong></a>, <a href="#" class="card-link text-success ml-0"><strong>Blog</strong></a> 
+      <p class="card-text">The Reality of Fire Risk in Transmission and Distribution Networks The flow of power in th...</p>
+    </div>
+  </div>
+  
+  <div class="card bg-light">
+    <div class="card-body text-center">
+    	<img src="https://placehold.it/300x170" class="img-fluid" stlye="max-width:300px;"/>
+      <h4 class="card-title">Article Title Article Title Article Title Article Title Article Title Article Title</h4>
+      <i class='far fa-user text-success'></i> by <a href="#" class="card-link text-success"><strong>Post Author</strong></a> | <i class='fas fa-tag text-success'></i> in <a href="#" class="card-link text-success"><strong>tag1</strong></a>, <a href="#" class="card-link text-success ml-0"><strong>tag2</strong></a> 
+      <p class="card-text">Post body first 90 characters. Post body first 90 characters. Post body first 90 characters...</p>
+    </div>
+  </div>
+    
+  <div class="card bg-light">
+    <div class="card-body text-center">
+    	<img src="https://placehold.it/300x170" class="img-fluid" stlye="max-width:300px;"/>
+      <h4 class="card-title">Article Title Article Title Article Title</h4>
+      <i class='far fa-user text-success'></i> by <a href="#" class="card-link text-success"><strong>Post Author</strong></a> | <i class='fas fa-tag text-success'></i> in <a href="#" class="card-link text-success"><strong>tag1</strong></a>, <a href="#" class="card-link text-success ml-0"><strong>tag2</strong></a> 
+      <p class="card-text">Post body first 90 characters. Post body first 90 characters. Post body first 90 characters...</p>
+    </div>
+  </div>
+</div>
+</div>
+
     
         <footer class="pt-4 bg-dark">
                  
