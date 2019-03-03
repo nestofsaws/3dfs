@@ -38,9 +38,9 @@
 						<div class="col-4 pl-3">		
 							<p class="text-white size-20 border-bottom">About</p>
 							<ul class="list-unstyled d-none d-md-block">
-								<li><a href="#" class="text-white pl-1">About Us</a></li>
-								<li><a href="#" class="text-white pl-1">Collaboration</a></li>
-								<li><a href="#" class="text-white pl-1">Careers</a></li>
+								<li><a href="{{ route('about') }}" class="text-white pl-1">About Us</a></li>
+								<li><a href="{{ route('applications') }}" class="text-white pl-1">Applications</a></li>
+								<li><a href="{{ route('innovation') }}" class="text-white pl-1">Innovation</a></li>
 								<li><a href="#" class="text-white pl-1">Tech Talk</a></li>
 							</ul>	
 						</div>
@@ -112,7 +112,7 @@
 					</div>	
 				</div>	
 				<div class="d-flex justify-content-center">
-					<a href="#" class="btn red-3dfs-button mr-3 mt-4"><strong>More Applications</strong></a>
+					<a href="{{ route('applications') }}" class="btn red-3dfs-button mr-3 mt-4"><strong>More Applications</strong></a>
 				</div>
 			</div>
 		</div> 
@@ -229,6 +229,10 @@
     </div>
   </div>
 </div>
+<div class="d-flex justify-content-center">
+	<a href="{{ route('news.index') }}" class="btn red-3dfs-button mr-3 mt-4"><strong>More News</strong></a>
+</div>
+
 </div>
 
     
