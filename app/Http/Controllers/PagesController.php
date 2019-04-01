@@ -16,4 +16,16 @@ class PagesController extends Controller
 		return view('pages.index');
     }
 
+    public function innovation() {
+		return view('innovation.index');
+    }
+    
+    public function allInOne() {
+		return view('innovation.all-in-one');
+    }
+    
+    public function pqr() {
+		return view('innovation.power-quality-rating');
+    }
+
 }

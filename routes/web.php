@@ -14,8 +14,11 @@
 Route::get('/', 'PagesController@index')->name('home');	
 Route::get('/about',function(){return view('pages.about');})->name('about');	
 Route::get('/applications',function(){return view('pages.applications');})->name('applications');	
-Route::get('/innovation',function(){return view('pages.innovation');})->name('innovation');	
+Route::get('/innovation', 'PagesController@innovation')->name('innovation');	
+Route::get('/innovation/all-in-one-system', 'PagesController@allInOne')->name('allInOne');	
+Route::get('/innovation/power-quality-rating', 'PagesController@pqr')->name('pqr');	
+Route::get('/contact',function(){return view('pages.contact');})->name('contact');	
 Route::resource('/users', 'UsersController');
 Route::resource('/products', 'ProductsController');
-Route::resource('/news', 'NewsController');
+Route::resource('/news', 'PostsController');
 Auth::routes();

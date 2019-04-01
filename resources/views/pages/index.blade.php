@@ -1,62 +1,5 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="{{ asset ('favicon.ico') }}" />
-	<title>3DFS Software-Defined Electricity</title>
-    <!-- Bootstrap core CSS -->
-	<link href="{{ asset ('css/app.css') }}" rel="stylesheet" type="text/css"/>
-	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <!-- Custom styles for this template -->
-    <link href="{{ asset ('css/styles.css') }}" rel="stylesheet">
-  </head>  
-  <body>  
-	<nav class="navbar bg-dark navbar-dark sticky-top">
-		<a class="navbar-brand ml-2" href="#" id="navlogo"><p class="text-white display-4 font-3dfs"><span class="red-3dfs bg-dark">3</span><span class="white-3dfs">DFS</span><span class="dark-3dfs">&nbsp;</span></p></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toptop">
-			<span class="navbar-toggler-icon"></span>
-		</button>   	 
-		<div class="bg-dark collapse navbar-collapse" id="toptop">
-			<div class="row">
-				<div class="col-md-5 pl-3">
-					<p class="text-white mt-3">3DFS designs and manufactures the most efficient way to deliver electricity. Embedding Real-Time computing into power networks for protection stability and security.</p>
-				</div>
-				<div class="col-md-7 pl-3">	
-					<div class="row">
-						<div class="col-4 pl-3">	
-							<p class="text-white size-20 border-bottom">Products</p>
-							<ul class="list-unstyled d-none d-md-block">
-								<li><a href="#" class="text-white pl-1">Data Acquisition & Analysis</a></li>
-								<li><a href="#" class="text-white pl-1">Electrical Network Correction</a></li>
-								<li><a href="#" class="text-white pl-1">Energy Storage</a></li>
-							</ul>	
-						</div>
-						<div class="col-4 pl-3">		
-							<p class="text-white size-20 border-bottom">About</p>
-							<ul class="list-unstyled d-none d-md-block">
-								<li><a href="{{ route('about') }}" class="text-white pl-1">About Us</a></li>
-								<li><a href="{{ route('applications') }}" class="text-white pl-1">Applications</a></li>
-								<li><a href="{{ route('innovation') }}" class="text-white pl-1">Innovation</a></li>
-								<li><a href="#" class="text-white pl-1">Tech Talk</a></li>
-							</ul>	
-						</div>
-						<div class="col-4 pl-3">		
-							<p class="text-white size-20 border-bottom">Contact</p>
-							<ul class="list-unstyled d-none d-md-block">
-								<li><a href="#" class="text-white pl-1">Follow on Twitter</a></li>
-								<li><a href="#" class="text-white pl-1">Like on Facebook</a></li>
-								<li><a href="#" class="text-white pl-1">Email us</a></li>
-							</ul>	
-						</div>						
-					</div>
-				</div>
-			</div>      
-		</div>      
-	</nav>
+@extends('layouts.sitewide')
+@section('content')
 	<section class="jumbotron jumbofade rounded-0 pt-2">
 	<div class="container">
 		<div class="col-md-12 d-flex flex-wrap">
@@ -119,7 +62,7 @@
 	</div> 
 	</section>
 	
-	<div class="py-5 bg-light">
+	<div class="py-4 bg-light">
 		<div class="container">
 			<div class="px-3 py-3 pb-md-4 mx-auto text-center">
 				<h3 class="display-4">What Are The Benefits Of Clean Electricity?</h3>
@@ -135,7 +78,7 @@
 					<div class="card-block text-center">
 						<i class="fas fa-leaf text-success mt-2" style="font-size:48px;"></i>
 						<h4 class="card-title text-center mt-2">Save Energy</h4>
-						<div class="card-body">
+						<div class="card-body pt-0">
 							<p>10-15% kWh reduction for fans, electronics, lighting loads, power supplies, etc.	20-25% kWh reduction for compressors, pumps, and other similar induction motor based loads</p>    
 						</div>
 
@@ -147,7 +90,7 @@
 					<div class="card-block text-center">
 						<i class="fas fa-thermometer-quarter text-success mt-2" style="font-size:48px;"></i>
 						<h4 class="card-title text-center mt-2">Cooler Temperatures</h4>
-						<div class="card-body">
+						<div class="card-body pt-0">
 							<p>Power supplies, wires, motors, pumps, etc. will experience a ~20 degree temperature drop as a result of preventing energy waste</p> 
 						</div>
 					</div>
@@ -158,7 +101,7 @@
 					<div class="card-block text-center">
 						<i class="fas fa-charging-station text-success mt-2" style="font-size:48px;"></i>
 						<h4 class="card-title text-center mt-2">Fail Less Frequently</h4>
-						<div class="card-body">
+						<div class="card-body pt-0">
 							<p>Loads operate stress free and never experience the power fluctuations and surges that exist in uncontrolled power networks.</p>    
 						</div>
 					</div>
@@ -169,7 +112,7 @@
 					<div class="card-block text-center">
 						<i class="fas fa-sync text-success mt-2" style="font-size:48px;"></i>
 						<h4 class="card-title text-center mt-2">Function Consistently</h4>
-						<div class="card-body d-flex flex-grow-1">
+						<div class="card-body d-flex flex-grow-1 pt-0">
 							<p>-Motors operate at tag values with optimum efficiency. -Data transfer with minimal errors or re-transmission. -In series generators interoperate seamlessly.</p>     
 						</div>
 
@@ -187,7 +130,7 @@
 					<i class="fas fa-euro-sign text-success text-center mt-2" style="font-size:48px;"></i>&nbsp;				
 					<i class="fas fa-yen-sign text-success text-center mt-2" style="font-size:48px;"></i></nobr></span>			
 					<h3 class="text-center mt-2">Financial Benefits</h3>
-					<div class="card-body text-center">
+					<div class="card-body text-center pt-0">
 						<p>Learn the Financial Benefits Of Protecting Power Networks With Software-Defined Electricity</p>    
 						<p><a href="#" class="btn btn-success mr-3 mt-4"><strong>Download Whitepaper</strong></a></p>
 					</div>
@@ -235,61 +178,4 @@
 
 </div>
 
-    
-        <footer class="pt-4 bg-dark">
-                 
-        <div class="container">
-
-			<div class="row">
-			  <div class="col-md-3">
-
-				<a><p class="text-white display-4 font-3dfs"><span class="red-3dfs bg-dark">3</span><span class="white-3dfs">DFS</span><span class="dark-3dfs">&nbsp;</span></p></a>
-				<ul class="list-unstyled text-small text-white">
-				<li>1911 NC Hwy 902 West</li>
-				<li>Pittsboro, NC 27312</li>
-				</ul>
-				<small class="d-block mb-3 text-muted">&copy; 2019</small>
-			
-			  </div>
-		  <div class="col-md-3">
-            <h5 class="text-white">About</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Team</a></li>
-              <li><a class="text-muted" href="#">Locations</a></li>
-              <li><a class="text-muted" href="#">Privacy</a></li>
-              <li><a class="text-muted" href="#">Terms</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h5 class="text-white">Features</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Cool stuff</a></li>
-              <li><a class="text-muted" href="#">Random feature</a></li>
-              <li><a class="text-muted" href="#">Team feature</a></li>
-              <li><a class="text-muted" href="#">Stuff for developers</a></li>
-              <li><a class="text-muted" href="#">Another one</a></li>
-              <li><a class="text-muted" href="#">Last time</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h5 class="text-white">Resources</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Resource</a></li>
-              <li><a class="text-muted" href="#">Resource name</a></li>
-              <li><a class="text-muted" href="#">Another resource</a></li>
-              <li><a class="text-muted" href="#">Final resource</a></li>
-            </ul>
-          </div>
-        </div>
-        </div>  
-        </footer>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	</body>
-<script type="text/javascript">
-$('.carousel').carousel({
-  interval: 4000
-})
-</script>
-</html>
+@endsection
