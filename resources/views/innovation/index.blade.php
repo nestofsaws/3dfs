@@ -1,18 +1,10 @@
 @extends('layouts.sitewide')
 @section('content')
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-<div class="carousel-inner">
-  <div class="carousel-item active">
-	<img class="first-slide" src="{{ asset('png/innovation-background.png') }}" alt="First slide">
-	<div class="container">
-	  <div class="carousel-caption mb-4">
-		<h1>Technological Innovation</h1>
-	  </div>
-	</div>
-  </div>
-</div>
-</div>	
+@component('includes.innovation.carousel')
+    @slot('title')
+     Technological Innovation
+    @endslot  
+@endcomponent	
 <div class="container my-4 bg-white p-2">
 	<div class="row">
 		<div class="col-md-6">

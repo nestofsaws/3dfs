@@ -2,8 +2,8 @@
 @section('content')
 	<section class="jumbotron jumbofade rounded-0 pt-2">
 	<div class="container">
-		<div class="col-md-12 d-flex flex-wrap">
-			<div class="col-md-6 d-flex flex-wrap">
+		<div class="col-lg-12 d-flex flex-wrap">
+			<div class="col-lg-6 d-flex flex-wrap">
 				<div class="col-12"> 
 					<h1 class="text-white display-3 font-3dfs"><span class="red-3dfs bg-dark">3</span><span class="white-3dfs">DFS</span><span class="gray-3dfs">&nbsp;</span></h1>
 					<h2><strong>PROTECTING POWER NETWORKS</strong></h2>
@@ -31,7 +31,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 d-block d-md-none">
+				<div class="col-lg-6 d-block d-lg-none">
 				<img class="img-fluid" src="{{ asset ('png/q2.png') }}"/>
 				</div> 
 				<div class="col-12">
@@ -44,7 +44,7 @@
 					</div>
 				</div>	
 			</div>		 
-			<div class="col-md-6 d-none d-md-block">
+			<div class="col-lg-6 d-none d-lg-block">
 				<img class="img-fluid" src="{{ asset ('png/q2.png') }}"/>
 			</div> 
 			<div class="col-12 ml-3 pr-5">			

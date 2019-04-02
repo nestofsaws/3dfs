@@ -1,18 +1,10 @@
 @extends('layouts.sitewide')
 @section('content')
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-<div class="carousel-inner">
-  <div class="carousel-item active">
-	<img class="first-slide" src="{{ asset('png/innovation-background.png') }}" alt="Background">
-	<div class="container">
-	  <div class="carousel-caption mb-4">
-		<h1>All-In-One System</h1>
-	  </div>
-	</div>
-  </div>
-</div>
-</div>	
+@component('includes.innovation.carousel')
+    @slot('title')
+     All-In-One System
+    @endslot  
+@endcomponent
 <div class="container-fluid my-4 bg-white py-2">
 	<div class="row">
 		<div class="col-8 col-md-10">
@@ -32,23 +24,7 @@
 			<p>The technological capability of controlling power flow in Real-Time is a technological leapfrog over conventional methods which will inevitably lead to more efficient, stable, secure and safe grids and power networks.</p>
 			<p>Most importantly, Software-Defined Electricity creates a clear technologically sound path to global energy sustainability.</p>
 		</div>
-		<div class="col-4 col-md-2">
-			<div class="bg-success" style="height:2px; width:50%;"></div>
-		    <div class="nav flex-column mb-3" style="position: -webkit-sticky; position: sticky; top: 75px; padding-top:3px;">
-			  <h6>INNOVATION</h6>		
-			  <a class="text-success" href="#"><small>All-In-One System</small></a>
-			  <br/>			
-			  <a class="text-success" href="#"><small>Power Quality Rating</small></a>
-		 	  <br/>
-			  <a class="text-success" href="#"><small>Digital Measurement</small></a>
-			  <br/>
-			  <a class="text-success" href="#"><small>Electrical Correction</small></a>
-	 		  <br/>
-			  <a class="text-success" href="#"><small>Battery Management System</small></a>
-		      <br/>
-			  <a class="text-success" href="#">INNOVATIVE FEATURES</a>		 	
-			</div>
-		</div>
+		@include('includes.innovation.sidebarnav')
 	</div>
 </div>
 

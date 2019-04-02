@@ -1,5 +1,5 @@
 	<nav class="navbar bg-dark navbar-dark sticky-top">
-		<a class="navbar-brand ml-2" href="#" id="navlogo"><p class="text-white display-4 font-3dfs"><span class="red-3dfs bg-dark">3</span><span class="white-3dfs">DFS</span><span class="dark-3dfs">&nbsp;</span></p></a>
+		<a class="navbar-brand ml-2" href="{{ route('home') }}" id="navlogo"><p class="text-white display-4 font-3dfs"><span class="red-3dfs bg-dark">3</span><span class="white-3dfs">DFS</span><span class="dark-3dfs">&nbsp;</span></p></a>
 		<div class="ml-auto d-none d-sm-block">
 		<a href="https://www.facebook.com/3dfspower"><i class='fab fa-facebook mr-3 text-secondary' style='font-size:24px'></i></a>
 		<a href="https://twitter.com/3DFS_Power"><i class='fab fa-twitter-square mr-3 text-secondary' style='font-size:24px'></i></a>

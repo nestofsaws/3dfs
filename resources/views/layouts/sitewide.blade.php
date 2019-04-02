@@ -1,4 +1,4 @@
-@include('includes.head')
-@include('includes.navbar')
+@include('includes.sitewide.head')
+@include('includes.sitewide.navbar')
 @yield('content')			
-@include('includes.footer')	
+@include('includes.sitewide.footer')	
