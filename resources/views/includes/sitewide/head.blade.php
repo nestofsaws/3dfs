@@ -15,5 +15,10 @@
 
     <!-- Custom styles for this template -->
     <link href="{{ asset ('css/styles.css') }}" rel="stylesheet">
+    
+    
+ 	<link href="{{ asset('css/about.css') }}" media="all" rel="stylesheet" type="text/css"/>
+
+    
   </head>  
   <body>  
