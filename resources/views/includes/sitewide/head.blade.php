@@ -16,9 +16,9 @@
     <!-- Custom styles for this template -->
     <link href="{{ asset ('css/styles.css') }}" rel="stylesheet">
     
-    
- 	<link href="{{ asset('css/about.css') }}" media="all" rel="stylesheet" type="text/css"/>
-
+    @if(Route::current()->getName() == 'about')
+ 		<link href="{{ asset('css/about.css') }}" media="all" rel="stylesheet" type="text/css"/>
+	@endif
     
   </head>  
   <body>  
